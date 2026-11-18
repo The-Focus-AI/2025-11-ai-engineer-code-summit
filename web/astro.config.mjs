@@ -25,7 +25,7 @@ export default defineConfig({
   base: process.env.BASE_PATH
     ? process.env.BASE_PATH
     : process.env.DEPLOY === 'github-pages'
-      ? '/2025-11-20-ai-engineering-code-summit'
+      ? '/2025-11-ai-engineer-code-summit'
       : process.env.DEPLOY === 'thefocus'
         ? '/reports/aiecode-2025-11/'
         : '/',

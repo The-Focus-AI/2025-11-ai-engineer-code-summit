@@ -30,14 +30,14 @@ also looking in the metadata to rename the file as a date with a time stamp.
 At the end of each day, I asked [claude](https://www.claude.com/product/claude-code) to intereest the image slides
 into the right section of the file -- the talks had the time in there -- and that's how we get
 
-- [2025-11-20.md](https://github.com/The-Focus-AI/2025-11-20-ai-engineering-code-summit/blob/main/2025-11-20.md)
-- [2025-11-21.md](https://github.com/The-Focus-AI/2025-11-20-ai-engineering-code-summit/blob/main/2025-11-21.md) 
+- [2025-11-20.md](https://github.com/The-Focus-AI/2025-11-ai-engineer-code-summit/blob/main/2025-11-20.md)
+- [2025-11-21.md](https://github.com/The-Focus-AI/2025-11-ai-engineer-code-summit/blob/main/2025-11-21.md) 
 
 ## post processing
 
 Now I started asking claude to figure out how to program itself.
 
-### Prompt: [conference-analsys.md](https://github.com/The-Focus-AI/2025-11-20-ai-engineering-code-summit/blob/main/.claude/commands/conference-analysis.md)
+### Prompt: [conference-analsys.md](https://github.com/The-Focus-AI/2025-11-ai-engineer-code-summit/blob/main/.claude/commands/conference-analysis.md)
 
 This was something like 
 
@@ -47,7 +47,7 @@ I use that pattern a lot, one question at a time.  I used to say something like
 "ask me the question that will give you the most important information first" but now it just knows.
 
 
-### Prompt: [theme-summary.md](https://github.com/The-Focus-AI/2025-11-20-ai-engineering-code-summit/blob/main/.claude/commands/theme-summary.md)
+### Prompt: [theme-summary.md](https://github.com/The-Focus-AI/2025-11-ai-engineer-code-summit/blob/main/.claude/commands/theme-summary.md)
 
 > refine the themes even more, making them into a pyrmind, first a summary, then a one pager,and then a presentation
 
@@ -56,7 +56,7 @@ and interesting thought process to fiddling with the information architecture.
 
 This helped figure out which talk really had to do with which theme for example.
 
-### Prompt: [speaker-decorator.md](https://github.com/The-Focus-AI/2025-11-20-ai-engineering-code-summit/blob/main/.claude/commands/speaker-decorator.md)
+### Prompt: [speaker-decorator.md](https://github.com/The-Focus-AI/2025-11-ai-engineer-code-summit/blob/main/.claude/commands/speaker-decorator.md)
 
 This is a fun one that you does a bunch of biographical research on people, what
 they're known for, their socials etc.  I also use it to download their photos. 

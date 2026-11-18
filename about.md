@@ -20,23 +20,23 @@ This repository contains comprehensive notes, analysis, and synthesis from the *
 
 Most of this was based on my note taking and phone-photo snapping work on side at the conference.  I wrote down the quotes as they happened but I wasn't able to verify anything.  From my notes, I used claude to expand, contract, expand again, and contract again the content.  Look through for themes, tweaking the ideas, and then reorganizing things into sections.
 
-I designed the basic side using aistudio, copied it over into my claude-managed repo, and iterated on the designs.  I used nano-banana to process the conference photos -- [vibe coded an image processor](https://github.com/The-Focus-AI/nano-banana-cli) which also can double as a Claude Code skill -- and generate the diagrams for the posts.  The [process-slides](https://github.com/The-Focus-AI/2025-11-20-ai-engineering-code-summit/blob/main/.claude/commands/process-slides.md) prompt then read each slide and figured out which speaker it went it.
+I designed the basic side using aistudio, copied it over into my claude-managed repo, and iterated on the designs.  I used nano-banana to process the conference photos -- [vibe coded an image processor](https://github.com/The-Focus-AI/nano-banana-cli) which also can double as a Claude Code skill -- and generate the diagrams for the posts.  The [process-slides](https://github.com/The-Focus-AI/2025-11-ai-engineer-code-summit/blob/main/.claude/commands/process-slides.md) prompt then read each slide and figured out which speaker it went it.
 
 After choosing all of the themes, I then went back and rewrote all of the articles because boy does AI generated prose really.  Its not this but its that.  Sigh.
 
 ## Raw notes & Photos
 
-- [2025-11-20.md](https://github.com/The-Focus-AI/2025-11-20-ai-engineering-code-summit/blob/main/2025-11-20.md)
-- [2025-11-21.md](https://github.com/The-Focus-AI/2025-11-20-ai-engineering-code-summit/blob/main/2025-11-21.md) 
+- [2025-11-20.md](https://github.com/The-Focus-AI/2025-11-ai-engineer-code-summit/blob/main/2025-11-20.md)
+- [2025-11-21.md](https://github.com/The-Focus-AI/2025-11-ai-engineer-code-summit/blob/main/2025-11-21.md) 
 
 ## Some of the prompts that got us here:
 
-- [conference-analsys.md](https://github.com/The-Focus-AI/2025-11-20-ai-engineering-code-summit/blob/main/.claude/commands/conference-analysis.md)
-- [process-slides.md](https://github.com/The-Focus-AI/2025-11-20-ai-engineering-code-summit/blob/main/.claude/commands/process-slides.md)
-- [theme-summary.md](https://github.com/The-Focus-AI/2025-11-20-ai-engineering-code-summit/blob/main/.claude/commands/theme-summary.md)
-- [speaker-decorator.md](https://github.com/The-Focus-AI/2025-11-20-ai-engineering-code-summit/blob/main/.claude/commands/speaker-decorator.md)
-- [tighten-prose.md](https://github.com/The-Focus-AI/2025-11-20-ai-engineering-code-summit/blob/main/.claude/commands/tighten-prose.md)
-- [semantic-overlap.md](https://github.com/The-Focus-AI/2025-11-20-ai-engineering-code-summit/blob/main/.claude/commands/semantic-overlap.md)
+- [conference-analsys.md](https://github.com/The-Focus-AI/2025-11-ai-engineer-code-summit/blob/main/.claude/commands/conference-analysis.md)
+- [process-slides.md](https://github.com/The-Focus-AI/2025-11-ai-engineer-code-summit/blob/main/.claude/commands/process-slides.md)
+- [theme-summary.md](https://github.com/The-Focus-AI/2025-11-ai-engineer-code-summit/blob/main/.claude/commands/theme-summary.md)
+- [speaker-decorator.md](https://github.com/The-Focus-AI/2025-11-ai-engineer-code-summit/blob/main/.claude/commands/speaker-decorator.md)
+- [tighten-prose.md](https://github.com/The-Focus-AI/2025-11-ai-engineer-code-summit/blob/main/.claude/commands/tighten-prose.md)
+- [semantic-overlap.md](https://github.com/The-Focus-AI/2025-11-ai-engineer-code-summit/blob/main/.claude/commands/semantic-overlap.md)
 
 But ultimately, you just gotta type everything in from scratch.
 
