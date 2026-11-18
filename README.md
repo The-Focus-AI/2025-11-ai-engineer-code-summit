@@ -3,6 +3,14 @@
 
 This repository contains comprehensive notes, analysis, and synthesis from the **AI Engineer Code Summit 2025** held November 19-22, 2025 in Midtown Manhattan, New York. These notes cover the Leadership Sessions (Nov 20) and Engineering Sessions (Nov 21).
 
+## Transcripts, slides and themes (added November 2026)
+
+A year on, every talk in these notes was matched to its recording on the [AI Engineer YouTube channel](https://www.youtube.com/@aiDotEngineer) and enriched:
+
+- **[`analysis/themes.md`](analysis/themes.md)**: the cross-talk synthesis. Nine themes ranked by how many talks argue them, each with verbatim quotes linked to the exact second of the video, plus where the talks disagree, singletons and limits.
+- **[`talks/index.md`](talks/index.md)**: every talk grouped by theme, with speaker, YouTube link, transcript, slides and a link back to the live notes.
+- **`talks/<date>-<slug>/`**: one folder per talk. `transcript.md` holds YouTube's auto-captions (verbatim, ASR errors left in; two talks use a local Whisper transcript because YouTube rate-limited the caption download) with `[MM:SS]` timestamps; `slides/` holds distinct slides pulled from the video, each named by the second it appears (`at-00325s-scoped-autonomy.jpg` is at `&t=325s`).
+
 ## An experiment
 
 In a spasm of uncharacterist orgnanizatioal enthusiasm, I took it upon myself to capture notes on every talk. It turned
